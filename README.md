@@ -1,4 +1,4 @@
 # GObank
 
-GObank: cossack internet bank
+GObank: cossack internet bank  
 work in progress
