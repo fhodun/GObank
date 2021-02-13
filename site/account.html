@@ -1,0 +1,27 @@
+
+<html>
+
+<head>
+    <title>GObank</title>
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+        <h1>GObank</h1>
+        {{if .Success}}
+        <h2>Logged as username</h2>
+        {{else}}
+        <h2>Invalid login data</h2>
+    </header>
+    
+    <footer>
+        <p>created with &#128169; by fhodun</p>
+    </footer>
+</body>
+
+</html>
+{{end}}

@@ -60,6 +60,18 @@ button.disabled {
     opacity: 1;
 }
 
+.frame {
+    padding: 15px 25px;
+    text-decoration: none;
+    width: 40%;
+    outline: none;
+    color: #fff;
+    background-color: #D2386C;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 9px #999;
+}
+
 header {
     padding: 60px;
     text-align: center;
