@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+    font-family: Ubuntu;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button,
+input {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #D2386C;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 9px #999;
+    margin: 10px;
+}
+
+button:hover,
+input:hover {
+    background-color: #B91F53;
+}
+
+button:active,
+input[type=submit]:active,
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #B91F53;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+button.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+::placeholder {
+    color: #B3B3B3;
+    opacity: 1;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: #D2386C;
+    color: white;
+    font-size: 30px;
+    /*border-bottom: 4px solid black;*/
+}
+
+footer {
+    background-color: #D2386C;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /*border-top: 4px solid black;*/
+}
